@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+WORKDIR /app
+COPY . .
+RUN pip install flask pyjwt cryptography && chmod +x /app/entrypoint.sh
+CMD ["/app/entrypoint.sh"]

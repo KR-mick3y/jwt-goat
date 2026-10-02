@@ -1,0 +1,22 @@
+
+services:
+  jwt-none:
+    build: ./9001
+    ports:
+      - "9001:5000"
+  jwt-kid:
+    build: ./9002
+    ports:
+      - "9002:5000"
+  jwt-confusion:
+    build: ./9003
+    ports:
+      - "9003:5000"
+  jwt-crack:
+    build: ./9004
+    ports:
+      - "9004:5000"
+  jwt-jku:
+    build: ./9005
+    ports:
+      - "9005:9005"
