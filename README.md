@@ -20,5 +20,5 @@ docker compose down
 | 02 | kid Injection | http://127.0.0.1:9002|
 | 03 | Algorithm Confusion | http://127.0.0.1:9003 |
 | 04 | JWT Secret Brute Force | http://127.0.0.1:9004 |
-| 05 | JWU SSRF | http://127.0.0.1:9005|
+| 05 | JKU SSRF | http://127.0.0.1:9005|
 
